@@ -24,3 +24,24 @@ app.get('/api/notes', (req, res) => {
     }
   });
 });
+
+app.post('/api/notes', (req, res) => {
+    const newNote = req.body;
+    newNote.id = uuidv4();
+  
+    fs.readFile('./db/db.json', 'utf8', (err, data) => {
+      if (err) {
+        console.error(err);
+      } else {
+        const notes = JSON.parse(data);
+        notes.push(newNote);
+        fs.writeFile('./db/db.json', JSON.stringify(notes, null, 2), (err) => {
+          if (err) {
+            console.error(err);
+          } else {
+            res.json(newNote);
+          }
+        });
+      }
+    });
+  });
