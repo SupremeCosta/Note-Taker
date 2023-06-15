@@ -19,10 +19,10 @@
   1. Navigate to the repository folder in the command line/terminal
   2. Run `npm start`
   ## Visuals
-  Here is a video link along with visuals of the Logo generator interface.
-  <img src="./assets/images/Note Taker 1.png" alt="Note Taker Screenshot">
-  <img src="./assets/images/Note Taker 2.png" alt="Note Taker Screenshot"> 
-  <img src="./assets/images/Note Taker 3.png" alt="Note Taker Screenshot"> 
+  Here are some visuals of the note taker interface.
+  <img src="./public/assets/images/Note Taker 1.png" alt="Note Taker Screenshot">
+  <img src="./public/assets/images/Note Taker 2.png" alt="Note Taker Screenshot"> 
+  <img src="./public/assets/images/Note Taker 3.png" alt="Note Taker Screenshot"> 
   ## License
   This project is covered under the MIT license.
   ## Contributing
