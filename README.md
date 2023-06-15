@@ -1,14 +1,13 @@
 # Note-Taker
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  SVG Logo Generator is a simple Node.js command line application that generates a basic logo as an SVG file based on user input.
+  This is an application that can be used to write, save, and delete notes. This application uses an Express.js back end and saves and retrieves note data from a JSON file.
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
   - [Visuals](#visuals)
   - [License](#license)
   - [Contributing](#contributing)
-  - [Tests](#tests)
   - [Questions](#questions)
   ## Installation
   1. Download or clone the repository
@@ -18,8 +17,7 @@
   ## Usage
   To run the application:
   1. Navigate to the repository folder in the command line/terminal
-  2. Run `node index.js`
-  3. Follow the prompts to generate your README
+  2. Run `npm start`
   ## Visuals
   Here is a video link along with visuals of the Logo generator interface.
   <img src="./assets/images/Note Taker 1.png" alt="Note Taker Screenshot">
@@ -29,11 +27,6 @@
   This project is covered under the MIT license.
   ## Contributing
   If you would like to contribute to this project, please fork the project and submit a pull request.
-  ## Tests
-  To test this application:
-  1. Navigate to the repository folder in the command line/terminal
-  2. Run `node index.js`
-  3. Enter the test values when prompted
   ## Questions
   For any additional questions, you can contact me at:
   - [GitHub Profile](https://github.com/supremecosta)
